@@ -1,4 +1,6 @@
 .gitmodules
 .vagrant
-tools
 .gitignore
+.vscode
+_builds
+_logs
