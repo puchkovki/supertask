@@ -1,8 +1,0 @@
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/rebuild_cache.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/edit_cache.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/demo.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/test.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/package.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/check.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/sort.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/supertask/_build/CMakeFiles/package_source.dir
