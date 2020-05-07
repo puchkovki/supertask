@@ -1,6 +1,6 @@
 # **Sorting numbers** [![Build Status](https://travis-ci.com/puchkovki/suptertask.svg?token=Ux37jVUbGCZXFoXn5mcW&branch=master)](https://travis-ci.com/puchkovki/suptertask)
 
-This tool provides function for converting numbers into binary representation.
+This tool provides function for sorting integer numbers.
 ## *Building*
 ```
 $ cmake -H. -B_builds -DBUILD_TESTS=ON
