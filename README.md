@@ -1,4 +1,4 @@
-# **Sorting numbers** [![Build Status](https://travis-ci.org/puchkovki/suptertask.svg?branch=master)](https://travis-ci.org/puchkovki/suptertask)
+# **Sorting numbers** [![Build Status](https://travis-ci.com/puchkovki/suptertask.svg?token=Ux37jVUbGCZXFoXn5mcW&branch=master)](https://travis-ci.com/puchkovki/suptertask)
 
 This tool provides function for converting numbers into binary representation.
 ## *Building*
