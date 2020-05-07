@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df6fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df6fa.dir/build.make CMakeFiles/cmTC_df6fa.dir/build
+make[1]: вход в каталог «/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_df6fa.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_df6fa.dir/CheckSymbolExists.c.o   -c /home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_df6fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df6fa.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_df6fa.dir/CheckSymbolExists.c.o  -o cmTC_df6fa 
+/usr/bin/ld: CMakeFiles/cmTC_df6fa.dir/CheckSymbolExists.c.o: в функции «main»:
+CheckSymbolExists.c:(.text+0x1f): неопределённая ссылка на «pthread_create»
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_df6fa.dir/build.make:87: cmTC_df6fa] Ошибка 1
+make[1]: выход из каталога «/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:121: cmTC_df6fa/fast] Ошибка 2
+
+File /home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49e73.dir/build.make CMakeFiles/cmTC_49e73.dir/build
+make[1]: вход в каталог «/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_49e73.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49e73.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e73.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_49e73.dir/CheckFunctionExists.c.o  -o cmTC_49e73 -lpthreads 
+/usr/bin/ld: невозможно найти -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_49e73.dir/build.make:87: cmTC_49e73] Ошибка 1
+make[1]: выход из каталога «/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:121: cmTC_49e73/fast] Ошибка 2
+
+

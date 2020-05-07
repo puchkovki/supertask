@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/examples/demo.cpp
+iostream
+-
+vector
+-
+../include/sort.hpp
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/include/sort.hpp
+../sources/sort.cpp
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/sources/sort.cpp
+
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/include/sort.hpp
+iostream
+-
+vector
+-
+
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/sources/sort.cpp
+iostream
+-
+vector
+-
+../include/sort.hpp
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/include/sort.hpp
+

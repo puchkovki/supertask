@@ -1,0 +1,3 @@
+[submodule "suptertask/tools/polly"]
+	path = suptertask/tools/polly
+	url = https://github.com/ruslo/polly

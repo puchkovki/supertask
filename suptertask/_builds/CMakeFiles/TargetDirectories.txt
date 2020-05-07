@@ -1,0 +1,12 @@
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/package_source.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/check.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/package.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/test.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/demo.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/edit_cache.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/rebuild_cache.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/install/strip.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/list_install_components.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/sort.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/install.dir
+/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_builds/CMakeFiles/install/local.dir
