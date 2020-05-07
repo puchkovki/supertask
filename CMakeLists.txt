@@ -7,11 +7,7 @@ HunterGate(
     SHA1 "5659b15dc0884d4b03dbd95710e6a1fa0fc3258d"    
 )
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-option(BUILD_EXAMPLES "Build examples" OFF)
-option(BUILD_TESTS "Build tests" OFF)
+project(sort)
 
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
