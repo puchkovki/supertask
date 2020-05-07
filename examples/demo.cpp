@@ -31,11 +31,11 @@ int main() {
     std::cin >> a >> b;
     std::vector< int > sorted = sort(a, b);
 
-    for(const int& i: sorted) {
+    for(auto i: sorted) {
         std::cout << i << " ";
     }
 
     std::cout << std::endl;
 
-    return 0;
+    return EXIT_SUCCESS;
 }
