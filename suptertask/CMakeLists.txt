@@ -13,36 +13,26 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(BUILD_EXAMPLES "Build examples" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
-# name the project
-project(sort)
-set(PRINT_VERSION_MAJOR 0)
-set(PRINT_VERSION_MINOR 1)
-set(PRINT_VERSION_PATCH 0)
-set(PRINT_VERSION_TWEAK 0)
-set(PRINT_VERSION
-  ${PRINT_VERSION_MAJOR}.${PRINT_VERSION_MINOR}.${PRINT_VERSION_PATCH}.${PRINT_VERSION_TWEAK})
-set(PRINT_VERSION_STRING "v${PRINT_VERSION}")
-
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
 add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/sources/sort.cpp)
 
 target_include_directories(sort PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
 )
 
 if(BUILD_EXAMPLES)
-  file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
-  foreach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
+    file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
+    foreach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
     get_filename_component(EXAMPLE_NAME ${EXAMPLE_SOURCE} NAME_WE)
     add_executable(${EXAMPLE_NAME} ${EXAMPLE_SOURCE})
     target_link_libraries(${EXAMPLE_NAME} print)
     install(TARGETS ${EXAMPLE_NAME}
-      RUNTIME DESTINATION bin
+        RUNTIME DESTINATION bin
     )
-  endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
+    endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
 endif()
 
 add_executable(demo ${CMAKE_CURRENT_SOURCE_DIR}/examples/demo.cpp)

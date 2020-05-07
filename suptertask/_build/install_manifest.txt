@@ -1,5 +1,0 @@
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_CPack_Packages/Linux/TGZ/sort-0.1.1-Linux/bin/demo
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_CPack_Packages/Linux/TGZ/sort-0.1.1-Linux/lib/libsort.a
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_CPack_Packages/Linux/TGZ/sort-0.1.1-Linux/include/sort.hpp
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_CPack_Packages/Linux/TGZ/sort-0.1.1-Linux/cmake/print-config.cmake
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_CPack_Packages/Linux/TGZ/sort-0.1.1-Linux/cmake/print-config-noconfig.cmake

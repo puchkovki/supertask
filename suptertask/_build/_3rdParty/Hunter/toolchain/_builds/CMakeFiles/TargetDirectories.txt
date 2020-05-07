@@ -1,2 +1,0 @@
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/rebuild_cache.dir
-/home/puchkovki/Documents/Github/puchkovki/workspace/projects/suptertask/_build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/edit_cache.dir
