@@ -31,7 +31,7 @@ int main() {
     std::cin >> a >> b;
     std::vector< int > sorted = sort(a, b);
 
-    for(auto i: sorted) {
+    for(const int& i: sorted) {
         std::cout << i << " ";
     }
 
