@@ -1,4 +1,4 @@
-# **Sorting numbers** [![Build Status](https://travis-ci.com/puchkovki/suptertask.svg?token=Ux37jVUbGCZXFoXn5mcW&branch=master)](https://travis-ci.com/puchkovki/suptertask)
+# **Sorting numbers** [![Build Status](https://travis-ci.com/puchkovki/supertask.svg?branch=master)](https://travis-ci.com/puchkovki/supertask)
 
 This tool provides function for sorting integer numbers.
 ## *Building*
